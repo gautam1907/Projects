@@ -1,0 +1,108 @@
+{
+  "STORE_BLR_001": {
+    "store_id": "STORE_BLR_001",
+    "store_name": "Purplle Bengaluru Indiranagar",
+    "open_hours": { "start": "10:00", "end": "22:00" },
+    "entry_camera": "CAM_3",
+    "billing_camera": "CAM_5",
+    "zone_cameras": ["CAM_1", "CAM_2"],
+    "entry_line_y_norm": 0.85,
+    "zones": [
+      {
+        "zone_id": "SKINCARE",
+        "zone_name": "Skincare",
+        "camera_id": "CAM_1",
+        "sku_zone": "MOISTURISER",
+        "polygon": [[0.0, 0.0], [0.33, 0.0], [0.33, 1.0], [0.0, 1.0]]
+      },
+      {
+        "zone_id": "MAKEUP",
+        "zone_name": "Makeup",
+        "camera_id": "CAM_1",
+        "sku_zone": "FOUNDATION",
+        "polygon": [[0.33, 0.0], [0.66, 0.0], [0.66, 1.0], [0.33, 1.0]]
+      },
+      {
+        "zone_id": "FRAGRANCE",
+        "zone_name": "Fragrance",
+        "camera_id": "CAM_1",
+        "sku_zone": "PERFUME",
+        "polygon": [[0.66, 0.0], [1.0, 0.0], [1.0, 1.0], [0.66, 1.0]]
+      },
+      {
+        "zone_id": "HAIRCARE",
+        "zone_name": "Haircare",
+        "camera_id": "CAM_2",
+        "sku_zone": "SHAMPOO",
+        "polygon": [[0.0, 0.0], [0.33, 0.0], [0.33, 1.0], [0.0, 1.0]]
+      },
+      {
+        "zone_id": "NAILS",
+        "zone_name": "Nail Care",
+        "camera_id": "CAM_2",
+        "sku_zone": "NAIL_POLISH",
+        "polygon": [[0.33, 0.0], [0.66, 0.0], [0.66, 1.0], [0.33, 1.0]]
+      },
+      {
+        "zone_id": "MENS",
+        "zone_name": "Men's Grooming",
+        "camera_id": "CAM_2",
+        "sku_zone": "MENS_GROOMING",
+        "polygon": [[0.66, 0.0], [1.0, 0.0], [1.0, 1.0], [0.66, 1.0]]
+      },
+      {
+        "zone_id": "BILLING_QUEUE",
+        "zone_name": "Billing Counter Queue",
+        "camera_id": "CAM_5",
+        "sku_zone": "BILLING",
+        "polygon": [[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]]
+      }
+    ]
+  },
+  "STORE_BLR_002": {
+    "store_id": "STORE_BLR_002",
+    "store_name": "Purplle Bengaluru Koramangala",
+    "open_hours": { "start": "10:00", "end": "22:00" },
+    "entry_camera": "CAM_3",
+    "billing_camera": "CAM_5",
+    "zone_cameras": ["CAM_1", "CAM_2"],
+    "entry_line_y_norm": 0.82,
+    "zones": [
+      {
+        "zone_id": "SKINCARE",
+        "zone_name": "Skincare",
+        "camera_id": "CAM_1",
+        "sku_zone": "MOISTURISER",
+        "polygon": [[0.0, 0.0], [0.5, 0.0], [0.5, 1.0], [0.0, 1.0]]
+      },
+      {
+        "zone_id": "MAKEUP",
+        "zone_name": "Makeup",
+        "camera_id": "CAM_1",
+        "sku_zone": "FOUNDATION",
+        "polygon": [[0.5, 0.0], [1.0, 0.0], [1.0, 1.0], [0.5, 1.0]]
+      },
+      {
+        "zone_id": "FRAGRANCE",
+        "zone_name": "Fragrance",
+        "camera_id": "CAM_2",
+        "sku_zone": "PERFUME",
+        "polygon": [[0.0, 0.0], [0.5, 0.0], [0.5, 1.0], [0.0, 1.0]]
+      },
+      {
+        "zone_id": "NAILS",
+        "zone_name": "Nail Care",
+        "camera_id": "CAM_2",
+        "sku_zone": "NAIL_POLISH",
+        "polygon": [[0.5, 0.0], [1.0, 0.0], [1.0, 1.0], [0.5, 1.0]]
+      },
+      {
+        "zone_id": "BILLING_QUEUE",
+        "zone_name": "Billing Counter Queue",
+        "camera_id": "CAM_5",
+        "sku_zone": "BILLING",
+        "polygon": [[0.0, 0.0], [1.0, 0.0], [1.0, 1.0], [0.0, 1.0]]
+      }
+    ]
+  }
+}
